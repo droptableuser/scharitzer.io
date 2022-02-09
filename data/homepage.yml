@@ -1,0 +1,226 @@
+# showcase
+showcase:
+  enable: true
+  title: "Hello, I’m Markus."
+  subtitle: "Cyber Security & Cloud Consultant"
+  description: "Cyber security and cloud migrations are a daunting task. It is easier if you have a partner you can trust. Together we can work on your most pressing issues."
+  image:
+    x: "images/undraw_code_thinking_re_gka2.svg"
+    _2x: "images/undraw_code_thinking_re_gka2.svg"
+  imageMobile:
+    x: "images/undraw_code_thinking_re_gka2.svg"
+
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Contact"
+    URL: "mailto:markus@scharitzer.io"
+
+  socialLinks:
+    - icon: "linkedin"
+      URL: "https://www.linkedin.com/in/markus-scharitzer"
+
+    - icon: "github"
+      URL: "https://github.com/droptableuser"
+
+    - icon: "twitter"
+      URL: "https://twitter.com/droptableuser"
+
+    # - icon: "youtube"
+    #   URL: "https://www.youtube.com/channel/UCojEc6SPO-W1_CoeHhK9-Zw"
+
+# about
+about:
+  enable: true
+  title: "Who am I?"
+  content: '<p class="lead">
+    I have 12+ years of experience in tech. From systems engineering, software development, to cyber security.
+    </p>
+    <p class="lead">
+    My area of focus lies in designing secure organizations and systems, in the cloud and on-premise. I enjoy performance optimizations of systems equally as assessing and iterating on security management systems. My business goals is reaching your business goals.
+    </p>'
+  button:
+    icon: "icon-smile-fill"
+    btnText: "About Me"
+    URL: "https://www.linkedin.com/in/markus-scharitzer"
+  image:
+    x: "images/markus.png"
+    _2x: "images/markus.png"
+
+# education
+education:
+  enable: false
+  title: ""
+  items:
+    - university: ""
+      year: ""
+      degree: ""
+
+    - university: ""
+      year: ""
+      degree: ""
+
+# experience
+experience:
+  enable: true
+  title: "Experience"
+  description: "Over 12+ years of experience working in the tech industry. I design & develop secure systems to help businesses and improve people's lives."
+  button:
+    icon: "icon-linkedin-fill"
+    btnText: "Linkedin"
+    URL: "https://www.linkedin.com/in/markus-scharitzer"
+  button2:
+    icon: "icon-profile-fill"
+    btnText: "Download My Resume"
+    URL: "#"
+
+  items:
+    - title: "Manager Cyber Security"
+      company: "Austro Control"
+      duration: " since Jan 2022"
+    - title: "Senior Security Operations Engineer & Security Officer"
+      company: "Austro Control"
+      duration: "Mar 2019 - Dec 2021"
+    - title: "Team Lead Penetration Testing"
+      company: "XSEC InfoSec "
+      duration: "Mar 2018 - Oct 2018"
+
+    - title: "System & Security Administrator"
+      company: "Semantic Web Company"
+      duration: "May 2014 - Feb 2018"
+
+    - title: "Linux System Engineer & Software Developer"
+      company: "Prisma Solutions"
+      duration: "Dec 2010 - Apr 2014"
+
+# Client & Work
+client_and_work:
+  title: "Clients & Works"
+  enable: true
+
+  clients:
+    - logo:
+        x: "images/clients/footstock.png"
+        _2x: "images/clients/footstock.png"
+      alt: "Footstock"
+      url: "https://footstock.com"
+
+    - logo:
+        x: "images/clients/swc-logo-web.svg"
+        _2x: "images/clients/swc-logo-web.svg"
+      alt: "Semantic Web Company"
+      url: "https://semantic-web.com"
+    - logo:
+        x: "images/clients/paleoancestry.png"
+        _2x: "images/clients/paleoancestry.png"
+      alt: "Paleo Ancestry"
+      url: ""
+
+  #   - logo:
+  #       x: "img/clients/goldline.png"
+  #       _2x: "img/clients/goldline@2x.png"
+  #     alt: "Goldline"
+
+  #   - logo:
+  #       x: "img/clients/kanba.png"
+  #       _2x: "img/clients/kanba@2x.png"
+  #     alt: "Kanba"
+
+  #   - logo:
+  #       x: "img/clients/zoo-tv.png"
+  #       _2x: "img/clients/zoo-tv@2x.png"
+  #     alt: "Zoo"
+
+  #   - logo:
+  #       x: "img/clients/ztos.png"
+  #       _2x: "img/clients/ztos@2x.png"
+  #     alt: "Ztos"
+
+  # works:
+  #   - title: "Radity Finance - UI Kit"
+  #     description: "We have been receiving a lot of requests for a Finance Kit recently due to the popularity of Fintech."
+  #     button:
+  #       icon: "icon-arrow-right"
+  #       btnText: "Case Study"
+  #       URL: "#"
+  #     image:
+  #       x: "img/works/radity-finance.jpg"
+  #       _2x: "img/works/radity-finance@2x.jpg"
+  #     is_even: true
+
+  #   - title: "Swiss Fintech Website"
+  #     description: "The Swiss Finance + Technology Association is the leading FinTech hub in Switzerland."
+  #     button:
+  #       icon: "icon-arrow-right"
+  #       btnText: "Case Study"
+  #       URL: "#"
+  #     image:
+  #       x: "img/works/swissfintech.jpg"
+  #       _2x: "img/works/swissfintech@2x.jpg"
+  #     is_even: false
+
+  #   - title: "Robo Advisor"
+  #     description: "Robo Advisor is a Swiss Wealth Manager and wants to create the best digital experience for its UNHW clients across the world. We started with a whiteboard."
+  #     button:
+  #       icon: "icon-arrow-right"
+  #       btnText: "Case Study"
+  #       URL: "#"
+  #     image:
+  #       x: "img/works/robo-advisor.jpg"
+  #       _2x: "img/works/robo-advisor@2x.jpg"
+  #     is_even: true
+
+# testimonial
+testimonial:
+  enable: false
+  title: "Testimonials"
+  items:
+    - name: "Daniel Jordan"
+      position: "Phonet, CEO"
+      content: "Cold calling can be a great way to generate quality leads. You get to speak to the gatekeepers and stakeholders, and you get a great insight into their requirements and influences. But cold calling is an art-form. It can be daunting, it’s always a lot of work, and you always need to make a good impression."
+      image:
+        x: "img/testimonials/daniel-jordan.jpg"
+        _2x: "img/testimonials/daniel-jordan@2x.jpg"
+
+    - name: "Jonathan Peters"
+      position: "Textic, CEO"
+      content: "Whether you or your loved one is encountering the natural decrease in mobility that occurs with the passing of time, or deals with an illness-related lack of physical agility, a stair lift can be the ideal way to put you in charge of your home again. Regardless of the shape or make of your living accommodation."
+      image:
+        x: "img/testimonials/jonathan-peters.jpg"
+        _2x: "img/testimonials/jonathan-peters@2x.jpg"
+
+    - name: "Antonio Willis"
+      position: "Cyberse, CEO"
+      content: "In this digital generation where information can be easily obtained within seconds, business cards still have retained their importance in the achievement of increased business exposure and business sales. If your business already has a bunch of printed cards distributed to a number of potential customers and yet."
+      image:
+        x: "img/testimonials/antonio-willis.jpg"
+        _2x: "img/testimonials/antonio-willis@2x.jpg"
+
+# contact
+contact:
+  enable: true
+  title: "Contact"
+  form:
+    action: "#"
+    full_name: "Name you go by"
+    email: "Email Address"
+    message: "Type Your Message Here"
+  phone:
+    title: "Phone Number"
+    number: "+436605998730"
+  email:
+    title: "Email"
+    email: '<a href="mailto:markus@scharitzer.io">markus@scharitzer.io</a>'
+  address:
+    title: "Address"
+    address: "Markus Scharitzer<br />Bonygasse 27/18<br /> 1120 Vienna, Austria"
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Send Message"
+
+# newsletter
+newsletter:
+  enable: false
+  title: "Newsletter subscription"
+  success_message: "Successfully subscribed"
+  error_message: "Error while subscribing."
+  note: "We'll never share your email with anyone else."
