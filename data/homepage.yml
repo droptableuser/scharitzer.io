@@ -3,7 +3,7 @@ showcase:
   enable: true
   title: "Hello, I’m Markus."
   subtitle: "Cyber Security & Cloud Consultant"
-  description: "Cyber security and cloud migrations are a daunting task. It is easier if you have a partner you can trust. Together we can work on your most pressing issues."
+  description: "Cyber security and cloud migrations are a daunting task. It is easier if you have a partner you can trust. Together we can work on reaching your business goals on a solid basis."
   image:
     x: "images/undraw_code_thinking_re_gka2.svg"
     _2x: "images/undraw_code_thinking_re_gka2.svg"
@@ -33,10 +33,10 @@ about:
   enable: true
   title: "Who am I?"
   content: '<p class="lead">
-    I have 12+ years of experience in tech. From systems engineering, software development, to cyber security.
+    I have 12+ years of experience in tech: from systems engineering, software development, to cyber security.
     </p>
     <p class="lead">
-    My area of focus lies in designing secure organizations and systems, in the cloud and on-premise. I enjoy performance optimizations of systems equally as assessing and iterating on security management systems. My business goals is reaching your business goals.
+    My area of focus lies in designing secure organizations and systems, in the cloud and on-premise. I enjoy performance optimizations of systems equally as assessing and iterating on security management systems. My business goal is helping you reach your business goals.
     </p>'
   button:
     icon: "icon-smile-fill"

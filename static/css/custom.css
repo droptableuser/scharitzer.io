@@ -5,53 +5,14 @@
   src: url("/fonts/fakeserif/FakeSerif.woff") format("woff"),
     url("/fonts/fakeserif/FakeSerif.otf") format("opentype");
 }
-html body,
-body {
-  background-color: #1c1d21;
-  color: #fffffc;
-}
-.header--sticky-triggered {
-  background-color: #1c1d21;
-}
-.display-1,
-.lead,
-p,
-p a,
-span a,
-.header .navbar-light .navbar-nav .nav-link,
-h2,
-h3,
-.section--contact .container,
-input[type="text"],
-input[type="email"],
-textarea,
-h4,
-.contact__info span {
-  color: #fffffc;
-  background-color: #1c1d21;
-}
-.contact__info h4 {
-  color: #fffffc;
-  opacity: 0.5;
-}
-::placeholder,
-#email::placeholder,
-#full_name::placeholder {
-  color: #fffffc;
-  opacity: 0.5;
-}
+
 .header .navbar-brand span:first-child,
 .testimonial__author-info span,
 .experience__company {
   color: #7392b7;
 }
 .header .navbar-brand span:nth-child(2) {
-  color: #fffffc;
   font-family: FakeSerif;
   font-size: 60px;
   margin-top: -40px;
-}
-[class^="icon-"]:before,
-[class*=" icon-"]:before {
-  color: #fffffc;
 }
