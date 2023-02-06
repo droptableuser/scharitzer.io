@@ -1,76 +1,29 @@
 baseURL = "https://scharitzer.io"
 languageCode = "en-us"
-theme = "raditian"
+theme = "github-style"
+pygmentsCodeFences = true
+pygmentsUseClasses = true
 
-# Plugins
-[params.plugins]
-
-  # CSS Plugins
-  [[params.plugins.css]]
-  URL = "css/main.css"
-  [[params.plugins.css]]
-  URL = "css/rad-icons.css"
-  [[params.plugins.css]]
-  URL = "css/custom.css"
-
-  # JS Plugins
-  [[params.plugins.js]]
-  URL = "js/rad-animations.js"
-  [[params.plugins.js]]
-  URL = "js/sticky-header.js"
-  [[params.plugins.js]]
-  URL = "js/library/fontfaceobserver.js"
-
-
-# navigation
-[menu]
-
-  [[menu.header]]
-  name = "About"
-  URL = "#about"
-  weight = 2
-
-  [[menu.header]]
-  name = "Portfolio"
-  URL = "#portfolio"
-  weight = 3
-
-  [[menu.header]]
-  name = "Blog"
-  URL= "https://blog.scharitzer.io"
-  weight=4
-
-  [[menu.header]]
-  name = "Contact"
-  URL = "#contact"
-  weight = 5
-
-
-  [[menu.footer]]
-  name = "About"
-  URL = "#about"
-  weight = 2
-
-  [[menu.footer]]
-  name = "Portfolio"
-  URL = "#portfolio"
-  weight = 3
-
-  [[menu.footer]]
-  name = "Contact"
-  URL = "#contact"
-  weight = 4
 
 
 [params]
+  author = "Markus Scharitzer"
+  description = "In solitude, where we are least alone."
+  github = "droptableuser"
+  twitter = "droptableuser"
+  linkedin = "markus-scharitzer"
+  twitch = "droptableuser"
+  email = "markus@scharitzer.io"
+  url = "https://scharitzer.io"
+  keywords = "blog, google analytics"
+  rss = true
+  lastmod = true
+  favicon = "/images/github.png"
+  location = "Austria"
+  userStatusEmoji = "😀"
+  enableGitalk = false
+  avatar="./images/markus.png"
 
-  sections = ["showcase", "about", "education", "experience", "client-and-work", "testimonial", "contact", "newsletter"]
 
-  #googleTagManagerID = "GTM-000000" # Google Analytics works with Google Tag Manager
-
-  [params.logo]
-    text1 = "Markus"
-    text2 = "Scharitzer"
-
-  [params.footer]
-      copyright = "© Markus Scharitzer. All rights reserved."
+[frontmatter]
+  lastmod = ["lastmod", ":fileModTime", ":default"]
