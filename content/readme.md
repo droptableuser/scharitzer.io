@@ -6,7 +6,7 @@ DevOps, AppSec, DevSecOps, Cloud Native, IaC, all sound new to you? [Book a free
 
 
 ### About me
-My name is Markus, and I am Freelance DevSecOpos and Cloud Security Consultant.
+My name is Markus, and I am Freelance DevSecOps and Cloud Security Consultant.
 
 I have 12+ years of experience in tech: from systems engineering, software development, to cyber security. If you really want to drill down, [here is my resume](/Resume-Markus-Scharitzer.pdf)
 
