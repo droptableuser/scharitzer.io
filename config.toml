@@ -22,7 +22,7 @@ pygmentsUseClasses = true
   location = "Austria"
   userStatusEmoji = "😀"
   enableGitalk = false
-  avatar="./images/markus.png"
+  avatar="/images/markus.png"
 
 
 [frontmatter]
