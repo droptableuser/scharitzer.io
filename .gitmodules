@@ -1,3 +1,3 @@
-[submodule "themes/github-style"]
-	path = themes/github-style
-	url = git@github.com:droptableuser/github-style.git
+[submodule "themes/raditian"]
+	path = themes/raditian
+	url = https://github.com/droptableuser/raditian-free-hugo-theme

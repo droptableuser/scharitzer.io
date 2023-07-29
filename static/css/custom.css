@@ -16,3 +16,7 @@
   font-size: 60px;
   margin-top: -40px;
 }
+
+.rad-showcase__bg img {
+  max-height: 621px;
+}
