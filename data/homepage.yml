@@ -2,13 +2,16 @@
 showcase:
   enable: true
   title: "Hello, I’m Markus."
-  subtitle: "Cyber Security & Cloud Consultant"
-  description: "Cyber security and cloud migrations are a daunting task. It is easier if you have a partner you can trust. Together we can work on reaching your business goals on a solid basis."
+  subtitle: "CISO & Cyber Security Expert"
+  description: "I work at <a target='_blank' href='https://deltaconx.com/'>deltaconX</a>, a Software as a Service company focused on regulatory reporting in Switzerland. 
+  I have a very technical background, from backend development to system administration. I was a penetration tester, and a security engineer. I excel in leadership position
+  where I can own the direction my team or department is heading. I love automation as a way to optimize processes and avoid repetitive work. Work is way to solve problems.
+  I am open to mentor Cyber Security Experts or help you get your Information Security Program up and running."
   image:
-    x: "images/undraw_code_thinking_re_gka2.svg"
-    _2x: "images/undraw_code_thinking_re_gka2.svg"
+    x: "images/markus_smaller.jpg"
+    _2x: "images/markus.jpg"
   imageMobile:
-    x: "images/undraw_code_thinking_re_gka2.svg"
+    x: "images/markus_smaller.jpg"
 
   button:
     icon: "icon-mail-fill"
@@ -33,37 +36,39 @@ about:
   enable: true
   title: "Who am I?"
   content: '<p class="lead">
-    I have 12+ years of experience in tech: from systems engineering, software development, to cyber security.
+    I am easy going, a fast learner and very curious. I lead by example and work side by side with many different teams.
     </p>
     <p class="lead">
-    My area of focus lies in designing secure organizations and systems, in the cloud and on-premise. I enjoy performance optimizations of systems equally as assessing and iterating on security management systems. My business goal is helping you reach your business goals.
+    My profile is a hybrid of technical and organizational experience. I bring a lot of understanding for the business to tech teams, since I worked closely for years with founders and CEOs
+    I am a fast learner and pick up where I am needed most to reach the company&#39s goals fast and efficient. I have a strong motivation and a sense of responsibility for my customers, partners, and front 
+    foremost myself.
     </p>'
   button:
     icon: "icon-smile-fill"
     btnText: "About Me"
     URL: "https://www.linkedin.com/in/markus-scharitzer"
   image:
-    x: "images/markus.png"
-    _2x: "images/markus.png"
+    x: "images/speaker.jpg"
+    _2x: "images/speaker.jpg"
 
 # education
 education:
-  enable: false
+  enable: true
   title: ""
   items:
-    - university: ""
-      year: ""
-      degree: ""
+    - university: "UAS Technikum Wien"
+      year: "2017-2019"
+      degree: "Master in Cyber Security"
 
-    - university: ""
-      year: ""
-      degree: ""
+    - university: "UAS Technikum Wien"
+      year: "2014-2017"
+      degree: "Information and Communications Systems"
 
 # experience
 experience:
   enable: true
   title: "Experience"
-  description: "Over 12+ years of experience working in the tech industry. I design & develop secure systems to help businesses and improve people's lives."
+  description: "Over 13+ years of experience working in the tech industry. I design & develop secure systems to help businesses and improve people's lives."
   button:
     icon: "icon-linkedin-fill"
     btnText: "Linkedin"
@@ -74,12 +79,12 @@ experience:
     URL: "#"
 
   items:
-    - title: "Manager Cyber Security & Security Officer"
+    - title: "Chief Information Security Officer"
+      company: "deltaconX"
+      duration: "since Apr 2023"
+    - title: "Senior Security Operations Engineer → Manager Cyber Security & Security Officer"
       company: "Austro Control"
-      duration: " since Jan 2021"
-    - title: "Senior Security Operations Engineer "
-      company: "Austro Control"
-      duration: "Mar 2019 - Dec 2020"
+      duration: "Mar 2019 - Dec 2023"
     - title: "Team Lead Penetration Testing"
       company: "XSEC InfoSec "
       duration: "Mar 2018 - Oct 2018"
